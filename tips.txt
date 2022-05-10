@@ -1,0 +1,30 @@
+// Tips 
+
+* Understand the problem
+* Create concrete example
+* Break down the problem 
+* Solve 
+* Simplify 
+
+
+//Given two strings, write a function to determine if the second string is an anagram of the first string.
+//An anagram is a word or phrase formed by rearranging the letters of another.
+//cinema = iceman
+
+//1
+  //Does the second string contain only the same characters as the first string
+//2
+  //rat = tar
+  //aaz = aza
+  //qwerty = ytrewq
+  //rat = cat = false
+  // roof = oofr 
+  // told = old = false
+//3
+  // Create an object to hold the character count of each string
+  //Add the characters from the strings to the objects
+  //Compare the objects
+    //if keys of each object the same
+      //compare character counts
+    //if keys don't match return false
+    //if we never return false, return true
